@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid-Layout Example</title>
+    <style type="text/css">
+        *{
+            box-sizing: border-box ;
+        }
+        .main{
+            height: 98vh;
+            width: 100%;
+            border: 2px solid black;
+        }
+        .header{
+            height: 10vh;
+            width: 100%;
+            border: 2px solid black;
+            /* background-color: aqua; */
+        }
+        .logo{
+            height: 100%;
+            width: 20%;
+            font-size: 30px;
+            text-align: center;
+            border: 2px solid black;
+            font-weight: bold;
+            /* background-color: blueviolet; */
+            float: left;
+        }
+        .img1{
+            height: 100%;
+            width: 70%;
+            padding-left: 20%;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .text{
+            padding-top: 22px;
+            position: relative;
+        }
+        .text1{
+            padding-top: 22px;
+            position: relative;
+        }
+        .link{
+            padding: 25px;
+        }
+        .menu{
+            font-size: 30px;
+        }
+        .side1{
+            height: 80vh;
+            width: 25%;
+            /* background-color: aquamarine; */
+            border: 2px solid brown;
+            float: left;
+        }
+        .Result{
+            height: 55px;
+            width: 80%;
+            font-size: 40px;
+            margin: 50px 0px 0px 0px;
+            margin-right: 50px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        .center{
+            padding: 0px 0px 0px 120px;
+            padding-left: 80px;
+        }
+        .side2{
+            float: left;
+            height: 80vh;
+            width: 75%;
+            /* background-color: aquamarine; */
+            border: 2px solid black;
+        }
+        .top{
+            height: 40%;
+            width: 90%;
+            border: 2px solid black;
+            /* background-color: blueviolet; */
+            margin: 50px 0px 0px 70px;
+            padding: 40px 0px 0px 40px;
+        }
+        .left{
+            height: 80%;
+            width: 45%;
+            border: 2px solid black;
+            /* background-color: aqua; */
+            float: left;
+        }
+        .right{
+            margin-left: 70px;
+            float: left;
+            height: 80%;
+            width: 45%;
+            border: 2px solid black;
+            /* background-color: aqua; */
+        }
+        .bottom{
+            height: 40%;
+            width: 90%;
+            border: 2px solid black;
+            /* background-color: blueviolet; */
+            margin: 50px 0px 0px 70px;
+            padding: 50px 0px 0px 200px;
+            padding: 50px;
+        }
+        .left1{
+            height: 85%;
+            width: 30%;
+            /* background-color: cadetblue; */
+            border: 2px solid black;
+            float: left;
+            margin-right: 20px;
+        }
+        .center1{
+            height: 85%;
+            width: 30%;
+            border: 2px solid black;
+            /* background-color: cadetblue; */
+            float: left;
+            margin-right: 20px;
+        }
+        .right1{
+            height: 85%;
+            width: 30%;
+            border: 2px solid black;
+            /* background-color: cadetblue; */
+            float: left;
+        }
+        .footer{
+            font-size: 40px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- This is for Full Body Div -->
+    <div class="main">
+
+        <!-- This is for Header Div -->
+        <div class="header">
+            <div class="logo">
+                <!-- <div class="text">Logo Here</div> -->
+                <img src="./Images/DU_Logo.svg" alt="Darshan University">
+            </div>
+            <div class="menu">
+                <div class="text1">
+                    <a class="link" href="#">Home</a>
+                    <a class="link" href="#">About</a>
+                    <a class="link" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- This is for Body Div -->
+        <div class="body">
+            <div class="side1">
+                <div class="center">
+                    <div class="Result">Result</div>
+                </div>
+                <div class="center">
+                    <div class="Result">Apply</div>
+                </div>
+                <div class="center">
+                    <div class="Result">PLacement</div>
+                </div>
+                <div class="center">
+                    <div class="Result">Recrument</div>
+                </div>
+                <div class="center">
+                    <div class="Result">News</div>
+                </div>
+            </div>
+            <div class="side2">
+                <div class="top">
+                    <div class="left">
+                        <img src="./Images/Nature.jpg" alt="Nature Image">
+                    </div>
+                    <div class="right">
+                        <img src="./Images/Nature.jpg" alt="Nature Image">
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="left1">
+                        <img class="img1" src="./Images/Logo.jpeg" alt="Darshan University">
+                    </div>
+                    <div class="center1">
+                        <img class="img1" src="./Images/Logo.jpeg" alt="Darshan University">
+                    </div>
+                    <div class="right1">
+                        <img class="img1" src="./Images/Logo.jpeg" alt="Darshan University">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- This is for Fotter Div -->
+        <div class="footer">Footer</div>
+
+    </div>
+</body>
+</html>
